@@ -1,0 +1,84 @@
+body{
+    background-color: #f0f2f5;
+}
+.main{
+
+    width:1280;
+    height:720px;
+    display: flex;
+    flex-direction: row;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+
+}
+.first-section{
+    width:50%;
+    height: 100%;
+    /*background-color: aqua;*/
+    padding-left: 300px;
+    padding-top: 200px;
+    align-items: center;
+    
+}
+.heading {
+    color: #396dcc;
+font-size: 40px;
+font-weight:550;
+}
+.subheading{
+    size:30px;
+}
+.second-section{
+    width: 500px;
+    height: 360px;
+   background-color: white;
+    margin-top: 10%;
+    margin-right: 10%;
+    align-items: center;
+}
+.form
+{
+    /*background-color: burlywood;*/
+    width:100%;
+    height:360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+#input{
+        width: 90%;
+        height:12%;
+        margin-top: 10px;
+    }
+}
+.form a{
+    padding-top: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight:bold;
+}
+.form button{
+    background-color:#396dcc;
+    border-radius: 5px;
+    width: 90%;
+    height: 12%;
+    margin-top: 10px;
+}
+.forgot{
+    color: blue;
+    font-weight: normal;
+}
+hr{
+    color:grey;
+    width: 90%;
+}
+.form .account{
+margin-top: 50px;
+    background-color: green;
+    width: 50%;
+}
+.login{
+    color: white;
+
+}
